@@ -1,0 +1,59 @@
+mixin navItem(link,text)
+    p.nav__item
+        a(href=`${link}` class="nav__link") #{text}
+
+
+header.header
+    .header__nav
+        h2.heading-secondary.header__logo
+            a(href="/")
+                img(class="header__img" src="/images/logo.svg" alt="Image Of the company logo")
+
+        nav.nav
+            +navItem("#", "Collections")
+            +navItem("#", "Men")
+            +navItem("#", "Women")
+            +navItem("#", "About")
+            +navItem("#", "Contact")
+
+    .header__user-box
+        if user
+            .header__cart
+                img(class="header__cart-img" src="/images/icons/icon-cart.svg" alt="Image of the cart")
+
+            .cart
+                .cart__header #{"Cart"}
+                .cart__products
+                    if user.cart.length < 1
+                        p.cart__empty-text #{"Your Cart Is Empty"}
+                    else
+                        each product in user.cart
+                            div(class="cart-product" id=`${product._id}`)
+                                img(
+                                    src=`/images/${product.image}`
+                                    alt="Image of the product"
+                                    class="cart-product__img")
+
+                                .cart-product__info
+                                    p.cart-product__name
+                                        a(id=`${product._id}` href=`/products/${product.product}`) #{product.name}
+
+                                    .cart-product__quantity-box
+                                        span.cart-product__price=`$${product.price.toFixed(2)}`
+                                        span="x"
+                                        span.cart-product__qnt #{product.quantity}
+                                        strong.cart-product__final-price=`$${(product.price * product.quantity).toFixed(2)}`
+                                        
+                                .btn.btn-delete
+                                    img(class="btn-delete-img" src="/images/icons/icon-delete.svg" alt="Image of the delete icon")
+
+                        .cart__checkout
+                            button.btn.btn-checkout #{"Checkout"}
+
+            .header__user
+                img(src=`/images/users/${user.avatar}` alt="Image of the current user")
+                span #{user.name.split(" ")[0].toUpperCase()}
+        else
+            .header__login 
+                a(href="/login" class="btn-login") #{"Log In"}
+                a(href="/signup" class="btn-signup") #{"Sign Up"}

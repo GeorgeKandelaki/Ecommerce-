@@ -1,0 +1,26 @@
+extends base
+
+
+block content 
+    main.main
+        each product in products
+            .product-card
+                .product-card__img-box
+                    img(src=`/images/${product.images[0]}` alt="image of the product")
+            
+                .product-card__content
+                    p.product-card__name #{product.name}
+                    p.product-card__company 
+                        span #{"Company:"}
+                        span.product-card__value #{product.company}
+                    p.product-card__discount 
+                        span #{"Discount:"} 
+                        span.product-card__value=`${product.discount ? product.discount + "%" : "No Discount"}`
+                    p.product-card__original-price 
+                        span #{"Original Price:"}
+                        span.product-card__value=`${product.price.toFixed(2)}$`
+                    p.product-card__price 
+                        span #{"Price:"}
+                        span.product-card__value=`${product.discountPrice.toFixed(2)}$`
+
+                    a(class="btn btn-go-to" href=`/products/${product._id}`) #{"View the Detail Page"}

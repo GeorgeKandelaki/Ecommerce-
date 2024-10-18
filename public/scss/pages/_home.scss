@@ -1,0 +1,8 @@
+.main {
+  margin: 6.4rem;
+
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 33rem));
+  grid-row-gap: 6.4rem;
+}

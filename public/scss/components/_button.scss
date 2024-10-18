@@ -1,0 +1,119 @@
+.btn {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+
+  &-purchase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    background-color: $color-orange-normal-1;
+    width: 100%;
+    padding: 2rem 0;
+    font-weight: 700;
+    position: relative;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $color-orange-light-2;
+    }
+  }
+
+  &-checkout {
+    width: 100%;
+    padding: 2rem 0;
+    font-weight: 700;
+    background-color: $color-orange-normal-1;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $color-orange-light-2;
+    }
+  }
+
+  &-next,
+  &-prev,
+  &-close {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &-next {
+  }
+
+  &-prev {
+  }
+
+  &-close {
+  }
+
+  &-delete {
+  }
+
+  &-login,
+  &-signup {
+    font-weight: 700;
+    color: $color-white;
+    background-color: $color-orange-normal-1;
+
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+
+  &-login {
+  }
+
+  &-signup {
+  }
+
+  &-go-to {
+    color: $color-white;
+    border-radius: 0.5rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.6rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $color-orange-light-2;
+    }
+  }
+
+  &-submit {
+    background-color: $color-orange-normal-1;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: $color-white;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $color-orange-light-2;
+    }
+  }
+}

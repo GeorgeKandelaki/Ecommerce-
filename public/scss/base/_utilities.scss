@@ -1,0 +1,35 @@
+.cart--active {
+    transform: translate(-60%, 65%);
+    visibility: visible;
+    pointer-events: auto;
+    transition: all 0.3s;
+}
+
+.image--active {
+    border: 3px solid $color-orange-normal-1;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: $color-orange-light-1;
+        opacity: 0.5;
+    }
+}
+
+.content--hidden {
+    display: none !important;
+}
+
+.content--active {
+    display: block !important;
+
+    & + .overlay {
+        display: block !important;
+    }
+}

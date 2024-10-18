@@ -1,0 +1,23 @@
+extends base
+
+block content
+    .form__container
+        form(class="form form__signup" method="POST" action="#")
+            h1 #{"Sign Up"}
+            .form__name.form__field
+                label(for="name") #{"Your Name"}
+                input(type="text" id="name" name="name" placeholder="George" class="form__name-input form__input")
+
+            .form__email.form__field
+                label(for="email") #{"Email Address"}
+                input(type="email" id="email" name="email" placeholder="me@example.com" class="form__email-input form__input")
+
+            .form__password.form__field
+                label(for="password") #{"Password"}
+                input(type="password" id="password" name="password" placeholder="*********" class="form__password-input form__input")
+
+            .form__confirm-password.form__field
+                label(for="confirm-password") #{"Confirm Password"}
+                input(type="password" id="confirm-password" name="passwordConfirm" placeholder="*********" class="form__confirm-password-input form__input")
+
+            button.btn.btn-submit #{"Sign Up" }

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Alexander Smith",
+    "email": "alexsmith@example.com",
+    "avatar": "user-1.jpg",
+    "password": "password123",
+    "passwordConfirm": "password123"
+  },
+  {
+    "name": "Emily Johnson",
+    "email": "emilyjohnson@example.com",
+    "avatar": "user-2.jpg",
+    "password": "securepass456",
+    "passwordConfirm": "securepass456"
+  },
+  {
+    "name": "Daniel Brown",
+    "email": "danielbrown@example.com",
+    "avatar": "user-3.jpg",
+    "password": "mypassword789",
+    "passwordConfirm": "mypassword789"
+  },
+  {
+    "name": "Sophia Davis",
+    "email": "sophiadavis@example.com",
+    "avatar": "user-4.jpg",
+    "password": "password321",
+    "passwordConfirm": "password321"
+  },
+  {
+    "name": "Michael Wilson",
+    "email": "michaelwilson@example.com",
+    "avatar": "user-5.jpg",
+    "password": "mypass654",
+    "passwordConfirm": "mypass654"
+  },
+  {
+    "name": "Isabella Martinez",
+    "email": "isabellamartinez@example.com",
+    "avatar": "user-6.jpg",
+    "password": "passwordabc",
+    "passwordConfirm": "passwordabc"
+  },
+  {
+    "name": "William Taylor",
+    "email": "williamtaylor@example.com",
+    "avatar": "user-7.jpg",
+    "password": "securedef456",
+    "passwordConfirm": "securedef456"
+  },
+  {
+    "name": "Olivia Anderson",
+    "email": "oliviaanderson@example.com",
+    "avatar": "user-8.jpg",
+    "password": "mypasswordgh",
+    "passwordConfirm": "mypasswordgh"
+  },
+  {
+    "name": "James Thomas",
+    "email": "jamesthomas@example.com",
+    "avatar": "user-9.jpg",
+    "password": "passwordij789",
+    "passwordConfirm": "passwordij789"
+  },
+  {
+    "name": "Ava Moore",
+    "email": "avamoore@example.com",
+    "avatar": "user-10.jpg",
+    "password": "passwordklm123",
+    "passwordConfirm": "passwordklm123"
+  },
+  {
+    "name": "Benjamin Jackson",
+    "email": "benjaminjackson@example.com",
+    "avatar": "user-11.jpg",
+    "password": "passwordnop456",
+    "passwordConfirm": "passwordnop456"
+  },
+  {
+    "name": "Charlotte White",
+    "email": "charlottewhite@example.com",
+    "avatar": "user-12.jpg",
+    "password": "passwordqrs789",
+    "passwordConfirm": "passwordqrs789"
+  },
+  {
+    "name": "Lucas Harris",
+    "email": "lucasharris@example.com",
+    "avatar": "user-13.jpg",
+    "password": "passwordtuv123",
+    "passwordConfirm": "passwordtuv123"
+  },
+  {
+    "name": "Mia Clark",
+    "email": "miaclark@example.com",
+    "avatar": "user-14.jpg",
+    "password": "passwordwxyz456",
+    "passwordConfirm": "passwordwxyz456"
+  },
+  {
+    "name": "Ethan Lewis",
+    "email": "ethanlewis@example.com",
+    "avatar": "user-15.jpg",
+    "password": "mypasswordabc",
+    "passwordConfirm": "mypasswordabc"
+  },
+  {
+    "name": "Amelia Walker",
+    "email": "ameliawalker@example.com",
+    "avatar": "user-16.jpg",
+    "password": "mypassworddef",
+    "passwordConfirm": "mypassworddef"
+  },
+  {
+    "name": "Henry Scott",
+    "email": "henryscott@example.com",
+    "avatar": "user-17.jpg",
+    "password": "mypasswordghi",
+    "passwordConfirm": "mypasswordghi"
+  },
+  {
+    "name": "Harper Green",
+    "email": "harpergreen@example.com",
+    "avatar": "user-18.jpg",
+    "password": "mypasswordjkl",
+    "passwordConfirm": "mypasswordjkl"
+  },
+  {
+    "name": "Elijah Hall",
+    "email": "elijahhall@example.com",
+    "avatar": "user-19.jpg",
+    "password": "mypasswordmno",
+    "passwordConfirm": "mypasswordmno"
+  },
+  {
+    "name": "Abigail Allen",
+    "email": "abigailallen@example.com",
+    "avatar": "user-20.jpg",
+    "password": "mypasswordpqr",
+    "passwordConfirm": "mypasswordpqr"
+  }
+]

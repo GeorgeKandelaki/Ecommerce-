@@ -1,0 +1,42 @@
+extends base
+
+mixin mainPreviewImage(preview, image)
+    div(class=`${preview ? "image-preview__slide" : "slide"}` )
+        img(class=`${preview ? "image-preview__slide-img" : "slide-img"}` src=`${image}` alt="Image of the product")
+
+mixin thumbnailImage(preview, image, index)
+    div(class=`${preview ? "image-preview__thumbnail-image" : "image__thumbnail-image"}` data-slide="${index}")
+        img(src=`${image}` data-slide=`${index}` class=`${preview ? "image-preview__thumbnail-img" : "image__thumbnail-img"}`)
+
+
+block content
+    main.content
+        .image
+            .image__main-images
+                each img in product.images
+                    +mainPreviewImage(false, `/images/${img}`)
+
+            .image__thumbnail-images
+                each img, index in product.images
+                    +thumbnailImage(false, `/images/${img}`, index)
+
+        div(class="product" id=`${product._id}`)
+            p.product__company #{product.company}
+            h1.heading-primary.product__name #{product.name}
+            p.product__description #{product.description}
+            .product__price-box
+                p.product__discount-price=`$${product.discountPrice.toFixed(2)}`
+                p.product__discount=`${product.discount}%`
+
+            p.product__price=`$${product.price.toFixed(2)}`
+
+            .product__purchase
+                if(user.cart.includes(product.id))
+                    .product__qnt-box
+                        img(src="/images/icons/icon-minus.svg" alt="Image of the Minus" class="btn--decrement-qnt")
+                        p.product__qnt="0"
+                        img(src="/images/icons/icon-plus.svg" alt="Image of the Plus" class="btn--increment-qnt")
+                else
+                    button.btn.btn-purchase
+                        img(src="/images/icons/icon-cart.svg" alt="Image of the Cart")
+                        span #{"Add To Cart"}

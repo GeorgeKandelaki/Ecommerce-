@@ -1,0 +1,50 @@
+.form__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+  border-radius: 1rem;
+  max-width: 60rem;
+  width: 100%;
+
+  padding: 3rem 4rem;
+  box-shadow: 0 0 5rem rgba(0, 0, 0, 0.1);
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__input {
+    height: 4.5rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid $color-blue-dark-2;
+    outline: none;
+
+    &:focus {
+      outline: 1px solid $color-blue-dark-1;
+    }
+  }
+
+  &__email {
+  }
+
+  &__password {
+  }
+
+  &__email-input {
+  }
+
+  &__password-input {
+  }
+}

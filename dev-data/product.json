@@ -1,0 +1,211 @@
+[
+  {
+    "company": "Fitness Essentials",
+    "name": "Portable Charger",
+    "description": "Compact and durable design for maximum efficiency and performance.",
+    "price": 90,
+    "discount": 49,
+    "quantity": 19,
+    "images": [
+      "image-product-1-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-4.jpg",
+      "image-product-3.jpg",
+      "image-product-1.jpg",
+      "image-product-2.jpg"
+    ],
+    "discountPrice": 45.9
+  },
+  {
+    "company": "Outdoor Gear",
+    "name": "Electric Scooter",
+    "description": "Compact and durable design for maximum efficiency and performance.",
+    "price": 214,
+    "discount": 19,
+    "quantity": 91,
+    "images": [
+      "image-product-1-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-3.jpg",
+      "image-product-2.jpg",
+      "image-product-1.jpg",
+      "image-product-4.jpg"
+    ],
+    "discountPrice": 173.34
+  },
+  {
+    "company": "Tech Gadgets",
+    "name": "Action Camera",
+    "description": "Compact and durable design for maximum efficiency and performance.",
+    "price": 445,
+    "discount": 22,
+    "quantity": 29,
+    "images": [
+      "image-product-3-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-1-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-3.jpg",
+      "image-product-2.jpg",
+      "image-product-1.jpg",
+      "image-product-4.jpg"
+    ],
+    "discountPrice": 347.1
+  },
+  {
+    "company": "Travel Light",
+    "name": "Noise Cancelling Headphones",
+    "description": "High-quality sound with noise-cancelling features for an immersive experience.",
+    "price": 315,
+    "discount": 15,
+    "quantity": 14,
+    "images": [
+      "image-product-1-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-3.jpg",
+      "image-product-2.jpg",
+      "image-product-4.jpg",
+      "image-product-1.jpg"
+    ],
+    "discountPrice": 267.75
+  },
+  {
+    "company": "Travel Light",
+    "name": "Survival Kit",
+    "description": "High-quality sound with noise-cancelling features for an immersive experience.",
+    "price": 66,
+    "discount": 10,
+    "quantity": 42,
+    "images": [
+      "image-product-2-thumbnail.jpg",
+      "image-product-1-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-4.jpg",
+      "image-product-2.jpg",
+      "image-product-1.jpg",
+      "image-product-3.jpg"
+    ],
+    "discountPrice": 59.4
+  },
+  {
+    "company": "Tech Gadgets",
+    "name": "Mountain Bike",
+    "description": "High-quality sound with noise-cancelling features for an immersive experience.",
+    "price": 374,
+    "discount": 22,
+    "quantity": 57,
+    "images": [
+      "image-product-2-thumbnail.jpg",
+      "image-product-1-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-4.jpg",
+      "image-product-1.jpg",
+      "image-product-2.jpg",
+      "image-product-3.jpg"
+    ],
+    "discountPrice": 291.72
+  },
+  {
+    "company": "Outdoor Gear",
+    "name": "Yoga Mat",
+    "description": "A perfect companion for all your adventures. Durable, lightweight, and stylish.",
+    "price": 323,
+    "discount": 10,
+    "quantity": 26,
+    "images": [
+      "image-product-1-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-3.jpg",
+      "image-product-4.jpg",
+      "image-product-2.jpg",
+      "image-product-1.jpg"
+    ],
+    "discountPrice": 290.7
+  },
+  {
+    "company": "Sneaker Company",
+    "name": "Drone",
+    "description": "A perfect companion for all your adventures. Durable, lightweight, and stylish.",
+    "price": 249,
+    "discount": 5,
+    "quantity": 58,
+    "images": [
+      "image-product-1-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-1.jpg",
+      "image-product-3.jpg",
+      "image-product-4.jpg",
+      "image-product-2.jpg"
+    ],
+    "discountPrice": 236.55
+  },
+  {
+    "company": "Outdoor Gear",
+    "name": "Camping Tent",
+    "description": "Designed to withstand extreme conditions while offering comfort and style.",
+    "price": 441,
+    "discount": 5,
+    "quantity": 3,
+    "images": [
+      "image-product-3-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-1-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-3.jpg",
+      "image-product-4.jpg",
+      "image-product-1.jpg",
+      "image-product-2.jpg"
+    ],
+    "discountPrice": 418.95
+  },
+  {
+    "company": "Tech Gadgets",
+    "name": "LED Flashlight",
+    "description": "A perfect companion for all your adventures. Durable, lightweight, and stylish.",
+    "price": 395,
+    "discount": 19,
+    "quantity": 23,
+    "images": [
+      "image-product-4-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-1-thumbnail.jpg",
+      "image-product-1.jpg",
+      "image-product-4.jpg",
+      "image-product-2.jpg",
+      "image-product-3.jpg"
+    ],
+    "discountPrice": 319.95
+  },
+  {
+    "company": "Fitness Essentials",
+    "name": "Waterproof Jacket",
+    "description": "A perfect companion for all your adventures. Durable, lightweight, and stylish.",
+    "price": 125,
+    "discount": 17,
+    "quantity": 6,
+    "images": [
+      "image-product-1-thumbnail.jpg",
+      "image-product-2-thumbnail.jpg",
+      "image-product-4-thumbnail.jpg",
+      "image-product-3-thumbnail.jpg",
+      "image-product-4.jpg",
+      "image-product-1.jpg",
+      "image-product-2.jpg",
+      "image-product-3.jpg"
+    ],
+    "discountPrice": 103.75
+  }
+]

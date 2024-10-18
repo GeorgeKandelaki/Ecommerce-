@@ -1,0 +1,17 @@
+div(class="cart-product" id="${data.id}")
+	img(
+		src="${data.image}"
+		alt="Image of the product"
+		class="cart-product__img")
+
+	.cart-product__info"
+		p.cart-product__name #{data.name}
+
+	    .cart-product__quantity-box"
+			span.cart-product__price=`$${data.price.toFixed(2)}`> 
+            span="x"
+			span.cart-product__qnt #{data.quantity}
+		    strong.cart-product__final-price=`$${data.totalPrice}`
+			
+	.btn.btn-delete
+	    img(class="btn-delete-img" src="/images/icon-delete.svg" alt="Image of the delete icon")
